@@ -152,13 +152,30 @@ h3{
 .food-menu-desc .btn{
     padding: 10px;
 }
+.social{
+    background-color: #2f3542;
+}
 .social img{
     width: 30px;
+    transition: 0.2s;
+    filter: grayscale(1);
+
+}
+.social img:hover{
+    filter: grayscale(0);
+
 }
 .social ul{
     list-style-type: none;
+    
 }
 .social ul li{
     display: inline-block;
     padding: 10px;
+}
+.footer{
+    background-color: #2f3542;
+}
+.footer p{
+    color: white;
 }
