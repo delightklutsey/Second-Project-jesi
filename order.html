@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <!-- navbar section -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/My_Logo.png" alt="" class="img-responsive img-curve"></a>
+            </div>
+
+               <div class="menu text-right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+
+               </div>
+
+               <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- navbar section ends -->
+
+    <section class="food-search">
+        <div class="container">
+            <h2 class="text-center text-black">
+                Fill this form to confirm your order.
+            </h2>
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Selected Food</legend>
+                    <div class="food-menu-img">
+                        <img src="./images/banku.jpg" alt="" class="img-responsive" style="margin-left: 40px; width: 150px;">
+                    </div>
+
+                    <div class="food-menu-desc">
+                        <h3>Banku with Tilapia and pepper</h3>
+                        <p class="food-price">GHC 120.00 </p>
+                        <div class="order-label">Quantity</div>
+                        <input 
+                        type="number"
+                         name="qty"
+                         class="input-responsive"
+                         value="1"
+                         required 
+                         />
+                    </div>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <label for="" class="order-label">Full Name</label>
+                    <br/>
+                    <input type="text" name="full-name" 
+                    placeholder="delly">
+                    <br/> <br>
+                    
+                    <label for="" class="order-label">Phone number</label>
+                    <br>
+                    <input type="tel" name="contact" 
+                    placeholder="000 000 0000">
+
+                    <br/><br>
+                    <label for="" class="order-label">Email</label>
+                    <br/>
+                    <input type="email" name="email" 
+                    placeholder="example@gmail.com">
+
+                    <br><br>
+
+                    <label for="" class="order-label">Address</label>
+                    <textarea name="Address" id="" cols="30" rows="10"></textarea><br>
+
+                    <input type="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

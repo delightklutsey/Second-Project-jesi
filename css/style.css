@@ -1,0 +1,32 @@
+.food-search{
+    background-image: none;
+    background-color:aliceblue
+
+}
+
+fieldset{
+    /* border: 1px solid black; */
+    padding: 4%;
+    margin: 2%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px 5px gray;
+    
+}
+
+label {
+    display: block;
+    width:auto;
+   
+  }
+  legend{
+    padding: 2px;
+    background-color: crimson;
+    border-radius: 8px;
+  }
+  input{
+    padding: 10px;
+  }

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .container{
@@ -9,6 +10,11 @@
     margin: 0 auto;
     padding: 1%;
 
+}
+.navbar .container{
+    position:fixed;
+    background-color: white;
+    width: 100%;
 }
 
 .img-responsive{
@@ -68,6 +74,16 @@ h3{
 }
 
 /* come back later */
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
 
 .logo{
     width: 15%;
@@ -174,7 +190,7 @@ h3{
     padding: 10px;
 }
 .footer{
-    background-color: #2f3542;
+    background-color: #ececec;
 }
 .footer p{
     color: white;
